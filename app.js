@@ -13,7 +13,7 @@ app.use('/assets/images/center', express.static('assets/images/center'));
 
 // Mongo DB Connection
 mongoose.connect(
-	'mongodb://localhost:27017/apisummer', 
+	'mongodb://localhost:<port>/<databaseName>', 
 	{ 
 		useNewUrlParser: true 
 	}
