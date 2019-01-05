@@ -22,9 +22,12 @@ mongoose.connect(
 mongoose.Promise = global.Promise;
 
 // Routers
+var homeRoutes = require('./src/routes/home');
 var centerRoutes = require('./src/routes/center');
 var userRoutes = require('./src/routes/user');
 
+app.use('/', homeRoutes);
+app.use('/home', homeRoutes);
 app.use('/center', centerRoutes);
 app.use('/user', userRoutes);
 
