@@ -13,7 +13,8 @@ app.use('/assets/images/center', express.static('assets/images/center'));
 
 // Mongo DB Connection
 mongoose.connect(
-	'mongodb://localhost:<port>/<databaseName>', 
+	'mongodb://curriculum:curriculum123@ds117839.mlab.com:17839/react_curriculum',
+	// 'mongodb://localhost:<port>/<databaseName>', 
 	{ 
 		useNewUrlParser: true 
 	}
