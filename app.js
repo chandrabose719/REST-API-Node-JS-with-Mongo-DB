@@ -4,10 +4,10 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 // POST Method
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
 	extended: true 
 }));
-app.use(bodyParser.json());
 
 app.use('/assets/images/center', express.static('assets/images/center'));
 
