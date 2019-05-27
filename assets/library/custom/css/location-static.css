@@ -1,0 +1,176 @@
+/*********************/
+/*Location Part*/
+#wrapper{
+    padding-left:0px;
+    padding-right:0px;  
+}
+
+#location-part{
+    width:100%; 
+    color:#25354b; 
+}
+#location-part h3{
+    font-size:35px; 
+    line-height:40px; 
+}
+/*Location Home*/
+#location-home{
+    width:100%;
+    height:550px;        
+}
+#location-home.india{
+    background:url(../../../../assets/images/bg-india.png);
+    background-size:cover; 
+}
+#location-home .container{
+    padding:30px 0px  
+}
+#location-home .home-content{
+    padding:50px 10px 10px 10px; 
+}
+#location-home .home-content h3{
+    text-align:left;
+}
+#location-home .home-content p{
+    text-align:left;
+    padding:5px 30px 5px 0px;  
+}
+/*Location Feature*/
+#location-feature{
+    width:100%;
+    background:#ffffff; 
+}
+#location-feature .container{
+    padding:30px 0px  
+}
+#location-feature .feature-content{
+    padding:50px 80px 20px 10px; 
+}
+#location-feature .feature-content h4{
+    text-align:left;  
+}
+/*Location Service*/
+#location-service{
+    width:100%;
+    background:#f5f7fa; 
+}
+#location-service .container{
+    padding:30px 0px  
+}
+#location-service .service-content{
+    padding:30px 10px 20px 10px; 
+}
+#location-service .service-list{
+    padding:40px 10px 20px 10px; 
+}
+#location-service .list-content{
+    padding:0px;   
+}
+#location-service .list-item{
+    list-style:none;
+    padding:15px 0px;  
+}
+#location-service .list-content span{
+    position:absolute;
+    width: 32px;
+    height: 32px;
+    font-size:13px; 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: white;
+    color: #2f5be7;
+    -webkit-box-shadow: 0 10px 15px rgba(47, 91, 231, 0.1);
+    box-shadow: 0 10px 15px rgba(47, 91, 231, 0.1); 
+}
+#location-service .service-content h3,
+#location-service .service-list h4{
+    text-align:left;  
+}
+#location-service .service-content p,
+#location-service .service-list p{
+    text-align:left;  
+    color:rgba(99, 114, 130, 0.9); 
+}
+/*Location Overview*/
+#location-overview{
+    width:100%;
+    background:#5c98bd; 
+}
+#location-overview .container{
+    padding:40px 0px 40px 0px;  
+}
+#location-overview .overview-content{
+    padding:30px 10px 40px 10px; 
+}
+#location-overview .overview-content h3{
+    color:#ffffff;
+    text-align:center;   
+}
+#location-overview .overview-content p, 
+#location-overview .overview-content a{ 
+    color:#ffffff;
+    text-align:center;
+}
+#location-overview .overview-content a:hover{
+    color:#25354b; 
+    padding:30px 0px;   
+}
+/*Location FAQ*/
+#location-faq{
+    width:100%;
+}
+#location-faq .container{
+    padding:30px 0px; 
+}
+#location-faq .faq-block h3{
+    color:#25354b;  
+}
+#location-faq .faq-content{
+    padding:20px 0px; 
+    border-top:2px solid #637282; 
+}
+#location-faq .faq-content h4{
+    text-align:left;   
+}
+#location-faq .faq-content p{
+    font-size:14px;  
+}
+/*Location Contact*/
+#location-contact{
+    width:100%;
+    background-image:url("../../../../assets/images/bg-white-dots.png");  
+    background-color:#5c98bd;  
+}
+#location-contact .container{
+    padding:30px 0px;   
+}
+#location-contact .contact-content{
+    padding:10px 0px;   
+}
+#location-contact .contact-content h3{
+    color:#ffffff; 
+    padding:10px 0px;   
+}
+#location-contact .contact-content p,
+#location-contact .contact-content a{
+    color:#ffffff; 
+    text-align:center;    
+}
+#location-contact .contact-content a:hover{
+    color:#25354b;
+    padding:30px 0px;   
+}
+/*End Location Part*/
+/*********************/
+

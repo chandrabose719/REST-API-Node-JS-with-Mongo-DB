@@ -1,0 +1,117 @@
+/*********************/
+/*Blog Part*/
+#blog-part{
+    width:100%;      
+}
+/*Resource*/
+#blog{
+    width: 100%;
+    opacity:0.7; 
+    background:url(../../../../assets/images/blog/bg-blog.png);
+    background-size: cover;
+    background-position: center;
+}
+#blog .container{
+    padding:20px 0px;
+}
+#blog .blog-content{
+    text-align:left;
+    padding-left:50px;
+    padding-bottom:140px; 
+}
+#blog .blog-content h1{
+    text-align:left;
+    color:#ffffff;  
+    padding-top:30px; 
+    padding-bottom:30px;
+}
+
+/*Resource Item*/
+#blog-group{
+    width:100%;
+    background:#ffffff; 
+}
+#blog-group .container{
+    padding:20px 20px;  
+}
+#blog-group .blog-group-content{
+    height:400px;
+    margin:10px 0px; 
+    padding:10px 10px;
+    text-align:center;
+    border-radius:3px;
+    transition:1s;
+    box-shadow:0px 0px 4px 0px rgba(0,0,0,.1); 
+}
+#blog-group .blog-group-content:hover{
+    box-shadow: 1px 1px 10px #B6B5B5;
+}
+#blog-group .blog-group-content:hover h4{
+    color: #17a2b8;
+}
+#blog-group .blog-group-content .content-image,
+#blog-group .blog-group-content .content-image img{
+    height:125px;             
+}
+#blog-group .blog-group-content .content-body{
+    height:210px;             
+}
+#blog-group .blog-group-content h4{
+    color:#5c98bd;
+    text-align:left; 
+    padding:5px 0px;   
+}
+/*Blog Item Page*/
+#blog-item-head{
+    width: 100%;
+    opacity:0.7;
+}
+#blog-item-head.blog-item{
+    background:url(../../../../assets/images/blog/bg-blog-item.png);
+    background-size: cover;
+    background-position: center;
+}
+#blog-item-head .container{
+    padding:20px 0px;
+}
+#blog-item-head .item-head-content{
+    text-align:left;
+    padding-left:50px;
+    padding-bottom:40px; 
+}
+#blog-item-head .item-head-content h1{
+    text-align:left;
+    color:#ffffff;  
+    padding-top:30px; 
+    padding-bottom:30px;
+}
+/*Blog Block*/
+#blog-item-block{
+    width: 100%;    
+    background:#fff;
+}
+#blog-item-block .container{
+    padding:20px 20px;
+}
+#blog-item-block .item-block-content{
+    text-align:center; 
+}
+#blog-item-block .item-block-content h4{
+    color:#5c98bd; 
+    text-align:left; 
+    padding: 20px 0px;
+}
+#blog-item-block .item-block-content p{
+    padding: 10px 0px;
+}
+#blog-item-block .item-block-content .center-align{
+    text-align:center; 
+}
+#blog-item-block .item-block-image{
+    text-align:center; 
+}
+#blog-item-block .item-block-image img{
+    text-align:center; 
+}
+/*End Blog Part*/
+/*********************/

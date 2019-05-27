@@ -1,0 +1,19 @@
+<div id="home-part">
+	<div class="container">
+		<div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-12 col-xs-12">
+			<div class="authentication-content">
+				<% if (type == 'success') { %>
+					<h2 class="text-info"><%- message %></h2>
+					<div class="col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-12 col-xs-12">
+						<a class="form-control btn btn-primary" href="/login">LOGIN</a>
+					</div>
+				<% }else{ %>	
+					<h2 class="text-danger"><%- message %></h2>
+					<div class="col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-12 col-xs-12">
+						<a class="form-control btn btn-primary" href="/register">REGISTER</a>
+					</div>
+				<% } %>
+			</div>	
+		</div>		
+	</div>
+</div>

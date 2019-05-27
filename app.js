@@ -1,42 +1,53 @@
-var express = require('express');
-var app = express();
-var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
-// POST Method
+// body Parser
+app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
-	extended: true 
-}));
 
-app.use('/assets/images/center', express.static('assets/images/center'));
-
-// Mongo DB Connection
+// Mongoose
 mongoose.connect(
-	'mongodb://curriculum:curriculum123@ds117839.mlab.com:17839/react_curriculum',
-	// 'mongodb://localhost:<port>/<databaseName>', 
-	{ 
-		useNewUrlParser: true 
-	}
+	'mongodb://mongoapp:mongoapp123@ds117919.mlab.com:17919/mongoapp', 
+	{useNewUrlParser: true }, 
+	function(err){
+        if(err) {
+            console.log('Some problem with the connection ' +err);
+        }else{
+            console.log('The Mongoose connection is ready');
+        }
+    }
 );
-mongoose.Promise = global.Promise;
 
-// Routers
-var homeRoutes = require('./src/routes/home');
-var centerRoutes = require('./src/routes/center');
-var userRoutes = require('./src/routes/user');
+// Routes
+const homeRoutes = require('./routes/home');
+const authRoutes = require('./routes/authentication');
+const userRoutes = require('./routes/users');
 
 app.use('/', homeRoutes);
-app.use('/home', homeRoutes);
-app.use('/center', centerRoutes);
+app.use('/', authRoutes);
 app.use('/user', userRoutes);
 
-// Error Message
-app.use(function(error, req, res, next){
-	res.status(422).json({
-		err: error.message
-	});
+// Views
+app.set('view engine', 'ejs');
+app.use('/images', express.static('assets/images'));
+app.use('/library', express.static('assets/library'));
+
+// Error
+app.use(function(req, res, next){
+	const error = new Error('Not Found');
+	error.status = 404;
+	next(error);
 });
 
+app.use(function(error, req, res, next){
+	res.status(error.status || 500);
+	res.json({
+		error: {
+			message: error.message
+		}
+	});
+});
 
 module.exports = app;

@@ -1,0 +1,248 @@
+/************************/
+/*Mobile Responsive Part*/
+
+/*Large Part*/
+@media (max-width:1199px){
+    footer .footer-start-make a{
+        letter-spacing:1px; 
+    }  
+}
+
+
+/*Medium Part*/
+@media (max-width:991px){
+    /*Header Page*/
+    #header-part .navbar-custom{
+        padding:0px 15px 10px 15px; 
+    }
+    #header-part .navbar-toggler,
+    #header-part .navbar-toggler:focus{
+        border:1px solid rgba(27, 110, 255, 0.3); 
+    }
+    #header-part button:focus{
+        outline:none; 
+    }
+    #header-part .navbar-toggler .fas{
+        color:rgba(27, 110, 255, 0.3); 
+    } 
+    #home{
+        height:auto; 
+    }
+    /*End Header Page*/  
+
+    /*Resource page*/
+    #resource-group .resource-group-content{
+        height: 470px;
+    }
+
+    #resource-group .resource-group-content .content-body{
+        height: 385px;
+    }
+    /*End Resource page*/
+
+}
+
+/*Small Part*/
+@media (max-width:767px){
+    /*General CSS*/
+    h1{
+        font-size: 30px;
+    }
+    /*End General CSS*/
+    /*Home Part*/
+    #home .home-content{
+        text-align:center;
+        padding-top:20px; 
+    }
+    #home .home-content h1{
+        margin-bottom:20px; 
+        text-align:left; 
+        font-size: 30px;
+    }
+    #home .home-content h4{
+        text-align:left;
+        padding-top:15px; 
+        padding-bottom:30px;
+    }
+    #home-manufacture-flow .container h3 {
+        text-align: center;
+    }
+    #home-design-flow .container h3 {
+        text-align: center;
+    }  
+    /*End Home Page*/
+    /*Resource Page*/
+    #resource{
+        height: 180px;
+    } 
+    #resource-item-head{
+        height: 180px;
+    }
+    #resource-group .resource-group-content{
+        height: 455px;
+    }
+    #resource-group .resource-group-content .content-body{
+        height: 370px;
+    }
+    #resource-item-block .border-secondary{
+        border: none !important;
+    }
+    /*End Resource Page*/
+    /*FAQ Page*/
+    #faq{
+        height: 180px;
+    }
+    /*End FAQ Page*/
+    /*Abount Page*/
+    #about{
+        height: 180px;
+    }
+    /*End Abount Page*/
+    /*Contact Page*/
+    #contact{
+        height: 180px;
+    }
+    /*Contact Page*/
+    /*Industry Page*/
+    #industry-head{
+        height: 180px;
+    }
+    /*End Industry Page*/
+    /*Blog Page*/
+    #blog{
+        height: 180px;
+    }
+    #blog-item-head{
+        height: 180px;
+    }
+    #blog-group .blog-group-content{
+        height: 532px;
+    }
+    #blog-group .blog-group-content .content-body{
+        height: 338px;
+    }
+    #blog-part .border-secondary{
+        border: none !important;
+    }
+    /*End Bloge Part */
+}
+
+/*Extra Small Part*/
+@media (max-width:575px){
+    .wrapper-body-margin{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .wrapper-body-padding{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    /*Sidebar Part*/
+    .custom-sidebar .user-menu{
+        position: absolute;
+        z-index: 1;
+        top:85px;
+        right:0;
+        left:0;
+        margin-left: 15px;
+        margin-right: 15px;
+        box-shadow: 1px 1px 4px #b3aaaa;
+    }
+    /*Static Part*/
+    /*Privacy Part*/
+    #privacy {
+        padding: 0px 10px;
+    }
+    #privacy .privacy-content h4{
+        padding-left: 0px;
+    }
+    /*End Privacy*/
+    /*Home Part*/
+    #home .home-content{
+        padding-left: 0px; 
+    } 
+    .home-content h1,h4{
+        padding-left: 15px;
+    }
+    #home .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    } 
+    /*End Home Page*/
+    /*Resource page*/
+    #resource-part .row{
+        margin-left: 0px;
+        margin-right: 0px;        
+    }
+    #resource-group .resource-group-content{
+        height: auto;
+    }
+    #resource-group .resource-group-content .content-body{
+        height: auto;
+    }
+    #resource-item-block .border-secondary{
+        border: none !important;
+    } 
+    /*End Resource page */ 
+    /*About Page*/
+    #about-part .row{
+        margin-left: 0px;
+        margin-right: 0px;        
+    }
+    /*End About Page*/
+    /*FAQ Page*/
+    #faq-part .row{
+        margin-left: 0px;
+        margin-right: 0px;        
+    }        
+    /*End FAQ Page*/
+    /*Contact Page*/
+    #contact-part .row{
+        margin-left: 0px;
+        margin-right: 0px;        
+    }
+    /*End Contact Page*/
+    /*Industry Page*/
+    #industry-part .row{
+        margin-left: 0px;
+        margin-right: 0px;        
+    }
+    /*End Industry Page*/
+    /*Blog Page*/
+    #blog-part .row{
+        margin-left: 0px;
+        margin-right: 0px;        
+    }
+    /*End Blog Page*/
+    /*End Static Part*/
+
+    /*Dynamic Part*/
+    /*Design Page*/
+    .project-detail-content h4{
+        padding-left: 0px;
+    }
+    #describe-design-part .project-detail-content .form-group{
+        margin: 10px 0px;
+    }
+    /*Manufacture Page*/
+    
+    /*End Dynamic Part*/
+}
+
+/*Extra Small Part*/
+@media (max-width:575px){
+    .design-part .design-header .need-help{
+        margin:5px 0px; 
+    }
+    /*Footer Part*/  
+    footer .social ul{
+        text-align:center;  
+    }
+    footer .copyright p{
+        text-align:center;  
+    }
+}
+
+/*************************/
+/*Mobile Responsive Part
+

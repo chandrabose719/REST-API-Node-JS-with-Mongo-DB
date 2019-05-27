@@ -1,22 +1,19 @@
 {
-    "name": "mongoapp",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "server": "nodemon server.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Me",
-    "license": "ISC",
-    "dependencies": {
-        "body-parser": "^1.18.3",
-        "express": "^4.16.3",
-        "jsonwebtoken": "^8.3.0",
-        "mongoose": "^5.2.6",
-        "multer": "^1.3.1"
-    },
-    "devDependencies": {
-        "nodemon": "^1.18.3"
-    }
+  "name": "first-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "ME",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.2.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9"
+  }
 }
